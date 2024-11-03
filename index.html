@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traffic Jam Simulator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="video-container">
+      <div id="top-left-overlay">
+        <div class="overlay-text">
+          <h1>Traffic Jam Simulator</h1>
+          <p id="level-display">Level 1</p>
+        </div>
+      </div>
+      <div id="timer">00:00</div>
+      <video id="traffic-video" autoplay muted loop>
+        <source src="vid.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <button id="horn-button">🔊 Horn</button>
+    </div>
+    <audio id="horn-sound" src="horn.mp3"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
