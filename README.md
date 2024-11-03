@@ -36,4 +36,28 @@ Software:
 
 2. Navigate to Project Directory
    ```bash
-   cd [project-directory]
+   cd traffic_jam_simulator
+
+ ## Run
+ To run the application, open index.html in any modern web browser. 
+
+
+## Screenshot
+![Level 1 - Stuck in traffic](https://github.com/avanthikapraveen/traffic_jam_simulator/blob/main/Screenshot%202024-11-03%20073835.png?raw=true)
+![Level one completion](https://github.com/avanthikapraveen/traffic_jam_simulator/blob/main/Screenshot%202024-11-03%20073902.png?raw=true)
+![Level 2 -  Car starts moving and again gets stuck in traffic](https://github.com/avanthikapraveen/traffic_jam_simulator/blob/main/Screenshot%202024-11-03%20074008.png?raw=true)
+
+## Diagram
+Start Project
+Display Video and Overlays
+Initialize Timer and Level
+Start Timer
+Display Timer and Level on Screen
+Trigger Horn Sound on Button Press
+Check Timer for Level Completion
+If Timer < 50 seconds
+Loop back to Timer Update
+If Timer = 50 seconds
+Show Level Completion Pop-Up
+Increment Level and Reset Timer
+Repeat Timer for Next Level
