@@ -49,16 +49,16 @@ Software:
 ![Level 2 -  Car starts moving and again gets stuck in traffic](https://github.com/avanthikapraveen/traffic_jam_simulator/blob/main/Screenshot%202024-11-03%20074008.png?raw=true)
 
 ## Diagram
-Start Project
-Display Video and Overlays
-Initialize Timer and Level
-Start Timer
-Display Timer and Level on Screen
-Trigger Horn Sound on Button Press
-Check Timer for Level Completion
-If Timer < 50 seconds
-Loop back to Timer Update
-If Timer = 50 seconds
-Show Level Completion Pop-Up
-Increment Level and Reset Timer
-Repeat Timer for Next Level
+1 Start Project
+2 Display Video and Overlays
+3 Initialize Timer and Level
+4 Start Timer
+5 Display Timer and Level on Screen
+6 Trigger Horn Sound on Button Press
+7 Check Timer for Level Completion
+8 If Timer < 50 seconds
+9 Loop back to Timer Update
+10 If Timer = 50 seconds
+11 Show Level Completion Pop-Up
+12 Increment Level and Reset Timer
+13 Repeat Timer for Next Level
